@@ -1,0 +1,48 @@
+git cd Desktop/git
+
+git init
+
+git ls
+
+git remote add origin https://github.com/DanielMalak/helloWorld.git
+
+git add '/c/Users/daniel malak/Desktop/About Version Control.txt'
+
+git add '/c/Users/daniel malak/Desktop/Branches in a Nutshell.txt'
+
+git add '/c/Users/daniel malak/Desktop/Distributed Workflows.txt'
+
+git status
+
+git reset '/c/Users/daniel malak/Desktop/Branches in a Nutshell.txt'
+
+git add '/c/Users/daniel malak/Desktop/Branches in a Nutshell.txt'
+
+git status
+
+git config --global user.email "My E-mail"
+
+git config --local -1
+
+git commit -m "first commit"
+
+git push -u origin master
+
+>README.md
+
+git add '/c/Users/daniel malak/Desktop/git/README.md
+
+git commit -m "second commit"
+
+git checkout -b ReadMe
+
+git branch
+
+git push -u origin ReadMe
+
+git checkout master
+
+git merge ReadMe
+
+git push -u origin master
+
